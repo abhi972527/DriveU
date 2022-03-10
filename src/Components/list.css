@@ -1,0 +1,29 @@
+.box {
+    text-align: left;
+    border: black ridge 1px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    width: 20rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    padding-top: 10px;
+    height: 200px;    
+    width: 19rem;
+}
+
+.bigBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    justify-content: space-between;
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+
+button {
+    margin-left: 34%;
+    text-align: center;
+}
